@@ -55,4 +55,12 @@ function sortearAmigo() {
     const liResultado = document.createElement("li");
     liResultado.textContent = `Tu amigo elegido es: ${amigoSecreto}`;
     resultadoElemento.appendChild(liResultado);
+
+    //limpiar todo despues de 3 segundos para volver a consultar
+    setTimeout(() => {
+         resultadoElemento.innerHTML = ""; //limpia el resultado del amigo que se escogio
+         listaAmigosElemento.innerHTML = ""; //limpia la lista de amigos
+         listaNombres = []; // deja vacio el arrays
+         entradaNombre.value = ""; //limpia el campo texto
+    }, 3000); // tiempo de 3 segundos 
 }
