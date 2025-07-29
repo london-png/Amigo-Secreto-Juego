@@ -1,1 +1,1 @@
-# Amigo Secreto juego\Este es un proyecto donde se ingresa varios nombres y el sistema realiza una seleccion aleatoria para escoger un nombre. despues de 3 segundos el sistema borra nuevamente para que ingresen una nueva lista y seleccione otro nombre aleatoramente.
+# Amigo Secreto juego\Este es un proyecto donde se ingresa varios nombres y el sistema realiza una seleccion aleatoria para escoger un nombre. despues de 3 segundos el sistema borra nuevamente para que ingresen una nueva lista y seleccione otro nombre aleatoriamente.
